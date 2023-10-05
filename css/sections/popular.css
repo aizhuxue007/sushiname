@@ -53,6 +53,7 @@
   text-align: center;
   padding: 2em;
   height: fit-content;
+  cursor: pointer;
 }
 
 .card > img {
@@ -99,7 +100,8 @@
     display: flex;
     align-items: center;
     padding: 1em 1.5em;
-    
+    cursor: pointer;
+
     font-family: var(--plus-jakarta-sans);
     font-size: 1rem;
     border: none;

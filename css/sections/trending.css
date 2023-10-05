@@ -2,7 +2,36 @@
     padding: 3em 0;
 }
 
+.trending__eats {
+    margin-bottom: 3em;
+}
+
 .trending__eats h3 {
     color: var(--primary-color);
     font-weight: 300;
+    margin-bottom: 1.75em;
+}
+
+.trending__eats h2 {
+    font-family: var(--playfair-display);
+    font-size: 4rem;
+    font-weight: 600;
+    margin-bottom: 0.5em;
+}
+
+.trending__eats p {
+    line-height: 2.5em;
+    font-size: 1.1rem;
+    margin-bottom: 2em;
+}
+
+.trending__eats ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    list-style: none;
+}
+
+.trending__eats ul li {
+    flex-basis: 30%;
 }
