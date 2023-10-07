@@ -37,6 +37,7 @@
 
 .hero__content {
     padding: 3em 0 4em;
+    background-color: var(--color-creamson);
 }
 
 .hero__content h1 {
@@ -66,4 +67,13 @@
 
 .play-btn__content img {
     margin-right: 1em;
+}
+
+@media (min-width: 900px) {
+   .hero {
+        display: flex;
+   } 
+   .hero-main {
+    flex-grow: 1;
+   }
 }
