@@ -73,7 +73,15 @@
    .hero {
         display: flex;
    } 
+
+   .hero-right {
+    display: flex;
+    flex-direction: column;
+   }
    .hero-main {
+    flex-grow: 2;
+   }
+   .testimonials {
     flex-grow: 1;
    }
 }

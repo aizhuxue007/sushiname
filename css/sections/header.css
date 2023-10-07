@@ -23,4 +23,33 @@ background-color: var(--primary-color);
 cursor: pointer;
 }
 
+.hidden {
+    display: none;
+}
+
+.nav__links {
+    list-style: none;
+    flex-direction: row;
+    gap: 1em;
+    color: white;
+}
+
+.nav__links li {
+    cursor: pointer;
+}
+
+@media (min-width: 900px) {
+    .container.header__nav nav{
+        width: 95%;
+        max-width: 1200px;
+    }
+    .nav__mobile-menu {
+        display: none;
+    }
+
+    .hidden {
+        display: flex;
+    }
+ }
+
 
