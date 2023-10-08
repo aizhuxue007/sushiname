@@ -22,11 +22,6 @@
     object-fit: contain;
 }
 
-/* not sure what overlay does */
-.hero-img__overlay {
-    
-}
-
 .hero__japanese-title {
     color: var(--color-white);
     font-family: var(--plus-jakarta-sans);
