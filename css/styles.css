@@ -48,9 +48,13 @@ a {
   color: inherit;
 }
 
+.hidden {
+  display: none;
+}
+
 .container {
   width: 90%;
-  max-width: 800px;
+  max-width: 1000px;
   margin: 0 auto;
 }
 

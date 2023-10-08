@@ -23,4 +23,51 @@
     background-color: var(--color-white);
 }
 
+@media (min-width: 900px) {
+   
+    .about .container {
+        display: flex;
+        width: 95%;
+        gap: 2em;
+    }
+    .testimonial__visuals {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    }
+    .about__content h2 {
+        font-size: 3rem;
+    }
+
+    body > section.about > div > div.testimonial__visuals > button {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: fit-content;
+        color: white;
+        background-color: black;
+        font-weight: 600;
+        padding: 1em 2em;
+        border-top-left-radius: 25px;
+        border-bottom-left-radius: 25px;
+        position: absolute;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto 0;
+        outline: none;
+        border: none;
+        cursor: pointer;
+    }
+
+    body > section.about > div > div.testimonial__visuals > button:hover {
+        opacity: 0.6;
+    }
+
+    body > section.about > div > div.testimonial__visuals > button > p {
+        margin: 0 4em;
+    }
+}
+
 

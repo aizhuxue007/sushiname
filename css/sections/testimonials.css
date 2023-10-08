@@ -1,5 +1,6 @@
 .testimonials {
     background-color: var(--color-white);
+    overflow-x: scroll;
 }
 
 .testimonials__reviews {

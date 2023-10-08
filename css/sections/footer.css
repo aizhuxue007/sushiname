@@ -1,5 +1,6 @@
 footer {
     background-color: var(--color-white);
+    overflow-x: scroll;
 }
 
 .footer__nav {
