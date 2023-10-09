@@ -101,6 +101,7 @@
         flex-basis: 100%;
     }
     .trending__btn {
+        display: block;
         width: 10rem;
         height: 10rem;
         position: absolute;
