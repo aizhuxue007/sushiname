@@ -6,7 +6,7 @@
     position: relative;
     display: flex;
    align-items: flex-end;
-    padding: 0 0 1em 1em;
+    padding: 0 0 2em 1em;
 }
 
 .hero__img {
@@ -36,7 +36,7 @@
 }
 
 .hero__content h1 {
-    font-size: 6rem;
+    font-size: 4rem;
     font-family: var(--playfair-display);
     margin-bottom: 0.5em;
 }
@@ -81,10 +81,6 @@
 
    .hero__content {
     flex: 5;
-   }
-
-   .testimonials {
-    flex-grow: 1;
    }
 
 }

@@ -59,6 +59,10 @@
     align-items: center;
 }
 
+.trending__btn {
+    display: none;
+}
+
 .item div{
     background-color: var(--primary-color);
     width: 1.5em;
@@ -79,4 +83,42 @@
     height: 0.75rem;
     position: absolute;
     inset: 6px;
+}
+
+@media (min-width: 900px) {
+    .trending {
+        display: flex;
+        flex-wrap: wrap;
+        position:relative;
+    }
+    .trending .container {
+        display: flex;
+    }
+    .trending .container .trending__eats {
+        flex-basis: 100%;
+    }
+    .trending .container .trending__visual {
+        flex-basis: 100%;
+    }
+    .trending__btn {
+        width: 10rem;
+        height: 10rem;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+        border: none;
+        outline: none;
+        background-color: var(--black-200);
+        color: var(--color-white);
+        font-size: 1.5rem;
+        padding: 1.5em;
+        border-radius: 100%;
+        cursor: pointer;
+    } 
+    .trending__btn:hover {
+        opacity: 0.8;
+    }
 }

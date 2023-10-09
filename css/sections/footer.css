@@ -21,21 +21,15 @@ footer {
 }
 
 .footer__menu {
-    list-style: none;
-    display: flex;
-    gap: 1em;
-    text-transform: uppercase;
-    margin-right: 3em;
+    display: none;
 }
 
 .footer__menu li {
-    cursor: pointer;
+    display: none;
 }
 
 .socials {
-    list-style: none;
-    display: flex;
-    gap: 1em;
+    display: none;
 }
 
 .social {
@@ -49,12 +43,23 @@ footer {
     cursor: pointer;
 }
 
-.socials-fb {
+@media (min-width: 900px) {
+    .footer__menu {
+        list-style: none;
+        display: flex;
+        gap: 1em;
+        text-transform: uppercase;
+        margin-right: 3em;
+    }
 
-}
-.socials-ig {
+    .footer__menu li {
+        cursor: pointer;
 
-}
-.socials-x {
+    }
 
+    .socials {
+        list-style: none;
+        display: flex;
+        gap: 1em;
+    }
 }

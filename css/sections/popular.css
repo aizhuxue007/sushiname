@@ -49,7 +49,8 @@
 .popular__cards {
     display: flex;
     flex-wrap: wrap;
-    align-items: flex-end;
+    justify-content: center;
+    align-items: center;
     gap: 1em;
     padding: 2em 0;
 }
