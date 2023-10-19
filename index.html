@@ -20,11 +20,21 @@
           </ul>
         </div>
         <div class="nav__mobile-menu" data-aos="fade-down">
-          <img
-            src="assets/menu.svg"
-            alt="navigation menu - mobile icon for toggling"
-          />
+          <a href="#" id="navToggle">
+            <img
+              src="assets/menu.svg"
+              alt="navigation menu - mobile icon for toggling"
+            />
+          </a>
         </div>
+      </nav>
+      <nav class="nav__mobile">
+        <ul class="nav__links" data-aos="fade-down">
+          <li>MENU</li>
+          <li>FOOD</li>
+          <li>SERVICES</li>
+          <li>ABOUT US</li>
+        </ul>
       </nav>
     </header>
     <main class="hero">
@@ -35,14 +45,14 @@
             alt="illustration of a sushi being held by chopsticks - this image is for grabbing audience attention"
           />
         </div>
-        <section class="hero__japanese-title" data-aos="fade-up">
+        <section class="hero__japanese-title">
           <div class="japanese-title__character">日</div>
           <div class="japanese-title__character">本</div>
           <div class="japanese-title__character">食</div>
         </section>
         <section class="hero-img__overlay"></section>
       </section>
-      <section class="hero-right" data-aos="fade-left">
+      <section class="hero-right" data-aos="fade-right">
         <section class="hero__content">
           <div class="container">
             <h1>Feel the taste of Japanese food</h1>
@@ -66,7 +76,7 @@
             </div>
           </div>
         </section>
-        <section class="testimonials" data-aos="fade-right">
+        <section class="testimonials">
           <div class="container">
             <div class="testimonials__reviews">
               <div class="reviews__stats reviews--margined">
@@ -86,12 +96,11 @@
           </div>
         </section>
       </section>
-      
     </main>
-   
+
     <section class="about">
       <div class="testimonial__visuals">
-        <div class="visual" data-aos="fade-up">
+        <div class="visual" data-aos="fade-right">
           <div class="visual__sushi">
             <img
               src="/assets/sushi-2.png"
@@ -109,7 +118,7 @@
           <p>Learn More</p>
           <img src="/assets/arrow-up-right.svg" alt="right arrow icon" />
         </button>
-        <div class="visual" data-aos="fade-up">
+        <div class="visual" data-aos="fade-right">
           <div class="visual__sushi">
             <img
               src="/assets/sushi-3.png"
@@ -122,11 +131,9 @@
               alt="another set of Japanese text for decoration"
             />
           </div>
-          </div>
-      
+        </div>
       </div>
       <div class="container">
-        
         <div class="about__content" data-aos="fade-right">
           <h3>About Us / 私たちに関しては</h3>
           <h2>Our mission is to bring true Japanese flavours to you.</h2>
@@ -177,10 +184,9 @@
             <span>All</span>
           </div>
         </div>
-        <div class="popular__cards">
-          <article class="card glass" data-aos="fade-up">
-            <img src="assets/sushi-12.png" alt="Chezu Sushi" 
-            />
+        <div class="popular__cards" data-aos="fade-up">
+          <article class="card glass">
+            <img src="assets/sushi-12.png" alt="Chezu Sushi" />
             <h3>Chezu Sushi</h3>
             <div class="card__numbers">
               <div class="card__review-score">
@@ -190,7 +196,7 @@
               <div class="card__price">$21.00</div>
             </div>
           </article>
-          <article class="card card--active glass" data-aos="fade-up">
+          <article class="card card--active glass">
             <img
               src="assets/sushi-11.png"
               alt="Original sushi illustration - riceball with salmon on top"
@@ -204,7 +210,7 @@
               <div class="card__price">$19.00</div>
             </div>
           </article>
-          <article class="card glass" data-aos="fade-up">
+          <article class="card glass">
             <img src="assets/sushi-10.png" alt="Ramen Legendo illustration" />
             <h3>Ramen Legendo</h3>
             <div class="card__numbers">
@@ -346,17 +352,15 @@
               </div>
             </li>
           </ul>
-          
         </article>
         <div class="trending__visual" data-aos="fade-left">
           <div class="trending__img">
             <img src="assets/sushi-4.png" alt="Japanese drink illustration" />
             <div class="trending__img-overlay"></div>
           </div>
+        </div>
       </div>
     </section>
-    
-    </div>
 
     <footer>
       <section class="cta" data-aos="fade-down">
