@@ -1,6 +1,6 @@
 .about {
     padding: 0 0 3em 0;
-    display: flex;
+    /* display: flex; */
 }
 
 .about h3 {
@@ -56,8 +56,8 @@
     aspect-ratio: 2/1;
  }
 
-.learn-btn {
-    display: none;
+ .learn-btn p {
+    margin: 0 1.2em;
 }
 
 @media (min-width: 900px) {
@@ -76,30 +76,7 @@
         font-size: 3rem;
     }
 
-    .learn-btn {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        height: fit-content;
-        color: white;
-        background-color: black;
-        font-weight: 600;
-        padding: 0.8em 1.5em;
-        border-top-left-radius: 25px;
-        border-bottom-left-radius: 25px;
-        position: absolute;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        margin: auto 0;
-        outline: none;
-        border: none;
-        cursor: pointer;
-    }
-
-    .learn-btn p {
-        margin: 0 2em 0 0;
-    }
+    
 }
 
 
